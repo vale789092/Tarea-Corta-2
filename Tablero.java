@@ -1,7 +1,7 @@
 public class Tablero {
     public int Casillas = 0;
     public int pos;
-    public Ficha[] fichas = new Ficha[4];
+    private Ficha[] fichas = new Ficha[4];
 
     public Tablero(int CasillasT){
         Casillas = CasillasT;
